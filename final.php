@@ -36,7 +36,7 @@ session_start();
         margin-left: 15rem;
         margin-top: 40px;
         text-decoration: none;
-        color: #2d3436;
+        color: #232829ff;
        background-color: white;
         transition: all .2s ease-in-out;
         width: 175px;
