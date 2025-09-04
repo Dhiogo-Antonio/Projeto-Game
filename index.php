@@ -13,7 +13,7 @@
     }
 
     body {
-      background: linear-gradient(#24a4bc, #8bd3ec);
+     background: linear-gradient(135deg, #4facfe, #00f2fe);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -27,12 +27,16 @@
       font-family: 'Gill Sans', sans-serif;
       font-size: 6vw;
       margin-bottom: 10px;
+      color: #ffffff;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
     }
 
     h2 {
       font-family: Impact, sans-serif;
       font-size: 10vw;
       color: bisque;
+      color: #ffeaa7;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
     }
 
     .header{
@@ -54,18 +58,19 @@
       display: inline-block;
       margin-top: 40px;
       padding: 15px 30px;
-      background: bisque;
+      background: #ffeaa7;
       border-radius: 15px;
-      box-shadow: 5px 5px aliceblue;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       text-decoration: none;
-      color: black;
+      color: #2d3436;
       font-size: 1.2rem;
       transition: all .2s ease-in-out;
     }
 
     .botao:hover {
-      background: aliceblue;
-      transform: scale(1.05);
+      background: #fdeebbff;
+    transform: scale(1.05);
+    color: #2d3436;
     }
   </style>
 </head>
