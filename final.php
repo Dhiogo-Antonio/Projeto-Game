@@ -30,18 +30,18 @@ session_start();
         margin-bottom: 90px;
     }
     a{
+         display: flex;
         align-items: center;
-        justify-self: center;
-        display: flex;
+        justify-content: center;
+        margin-left: 15rem;
         margin-top: 40px;
         text-decoration: none;
-        color: #8bd3ec;
+        color: #2d3436;
        background-color: white;
         transition: all .2s ease-in-out;
         width: 175px;
         border-radius: 7px;
-        font-size: 25px;
-        text-align: center;
+        font-size: 20px;
         box-shadow: 5px 5px #24a4bc;
     }
     a:hover{
