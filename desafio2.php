@@ -37,6 +37,11 @@
 </body>
 
 </html>
+<?php
+  if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    header("Location: desafio3.php");
+  }
+?>
 
 <?php
 session_start();

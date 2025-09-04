@@ -30,12 +30,17 @@
         <input type="radio" name="idade" value="4">23 anos e 10 anos
 
         <br>
-        <input type="submit" value="enviar" class="botao">
+        <input type="submit" value="enviar" class="botao" id = "btn">
         </form>
     </div>
 </body>
-
+<?php
+  if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    header("Location: desafio2.php");
+  }
+?>
 </html>
+
 
 <?php
 session_start();
