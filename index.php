@@ -68,7 +68,7 @@
     }
 
     .botao:hover {
-      background: #fdeebbff;
+      background: #ffeaa7;
     transform: scale(1.05);
     color: #2d3436;
     }
