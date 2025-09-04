@@ -1,23 +1,19 @@
 <?php
 
 
-session_start();
 
 class Geral {
 
     public function Desafio1($idade) {
         
         if ($idade === "1") {
-            $_SESSION['pontos'] = ($_SESSION['pontos'] ?? 0);
+    $_SESSION['pontos'] = ($_SESSION['pontos'] ?? 0) + 10;
 
-            echo "<p style='color:green;'>✅ Resposta correta! +10 pontos</p>";
-            echo "<p><strong>Pontuação atual:</strong> " . $_SESSION['pontos'] + 10 . "</p>" . '<br>';
-            echo "<a href='desafio2.php'>Próximo desafio</a>";
-        } else {
-            echo "<p style='color:red;'>❌ Resposta errada!</p>" . '<br>';
-            echo "<p><strong>Pontuação atual:</strong> " . ($_SESSION['pontos'] ?? 0) . "</p>" . '<br>';
-            echo "<a href='desafio2.php'>Próximo desafio</a>" . '<br>'; 
-        }
+    echo "<p style='color:green;'>✅ Resposta correta! +10 pontos</p>";
+    echo "<p><strong>Pontuação atual:</strong> " . $_SESSION['pontos'] . "</p><br>";
+    echo "<a href='desafio2.php'>Próximo desafio</a>";
+}
+
     }
 
 
