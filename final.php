@@ -11,7 +11,7 @@ session_start();
 </head>
 <style>
     div{
-        background-color: bisque;
+        background-color: #f6d365;
         border-radius: 10px;
     width: 700px;
     height: 280px;
@@ -28,6 +28,7 @@ session_start();
     h1{
         font-size: 40px;
         margin-bottom: 90px;
+        color: #f6d365;
     }
     a{
          display: flex;

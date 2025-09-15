@@ -34,7 +34,7 @@ h1 {
     display: inline-block;
     margin-top: 40px;
     padding: 15px;
-    background: #ffeaa7;
+    background: #f6d365;
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 175, 254, 0.4);
     text-decoration: none;
@@ -45,7 +45,7 @@ h1 {
 }
 
 .botao:hover {
-    background: #fab1a0;
+    background: #ffeaa7;
     transform: scale(1.05);
 }
 
@@ -79,11 +79,11 @@ div {
 
 .sein {
     padding: 100px;
-    color: #ffffff;
+    color: #f6d365;
 }
 
 .ola {
-    background-color: #ffeaa7;
+    background-color: #f6d365;
     width: 250px;
     height: 280px;
     border-radius: 20px;

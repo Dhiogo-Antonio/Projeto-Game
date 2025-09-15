@@ -7,13 +7,13 @@
   <link rel="shortcut icon" href="img/thumbnail_Captura_de_tela_2025-08-21_084213-removebg-preview.png" type="image/x-icon">
   <style>
     * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
     body {
-     background: linear-gradient(135deg, #4facfe, #00f2fe);
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -28,18 +28,17 @@
       font-size: 6vw;
       margin-bottom: 10px;
       color: #ffffff;
-    text-shadow: 2px 2px rgba(0,0,0,0.2);
+      text-shadow: 2px 2px rgba(0,0,0,0.2);
     }
 
     h2 {
       font-family: Impact, sans-serif;
       font-size: 10vw;
-      color: bisque;
-      color: #ffeaa7;
-    text-shadow: 2px 2px rgba(0,0,0,0.3);
+      color: #f6d365;
+      text-shadow: 2px 2px rgba(0,0,0,0.3);
     }
 
-    .header{
+    .header {
       animation: transition 1s infinite alternate;
     }
 
@@ -54,23 +53,60 @@
       margin-bottom: 20px;
     }
 
+   
+    .botoes {
+      display: flex;
+      gap: 10rem;
+      margin-top: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .botao {
       display: inline-block;
-      margin-top: 40px;
-      padding: 15px 30px;
-      background: #ffeaa7;
-      border-radius: 15px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 15px 40px;
+      background: linear-gradient(135deg, #ffeaa7, #f6d365);
+      border-radius: 50px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
       text-decoration: none;
       color: #2d3436;
-      font-size: 1.2rem;
-      transition: all .2s ease-in-out;
+      font-size: 1.3rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: all 0.3s ease-in-out;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .botao::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,0.4);
+      transform: skewX(-30deg);
+      transition: 0.5s;
+    }
+
+    .botao:hover::before {
+      left: 100%;
     }
 
     .botao:hover {
-      background: #ffeaa7;
-    transform: scale(1.05);
-    color: #2d3436;
+      transform: scale(1.08);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    @media (max-width: 600px) {
+      .botoes {
+        flex-direction: column;
+      }
+      .botao {
+        font-size: 1rem;
+        padding: 12px 25px;
+      }
     }
   </style>
 </head>
@@ -80,9 +116,14 @@
   <div class="header">
     <h2>Gênio Quizz</h2>
   </div>
-  <a href="desafio1.php" class="botao">Começar</a>
+
+  <div class="botoes">
+    <a href="desafio1.php" class="botao">Começar</a>
+    <a href="tutorial.php" class="botao">Tutorial</a>
+  </div>
 </body>
 </html>
+
 
 <?php
 session_start();
