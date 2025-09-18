@@ -33,9 +33,8 @@
 
         <h2>Pontuação:</h2>
         <p>
-            - A pontuação máxima é de 60 pontos.<br>
-            - Cada questão vale 10 pontos.<br>
-            - Caso a resposta esteja errada não haverá pontuação.<br>
+            - Você começa com um total de 60 pontos.<br>
+            - Caso a resposta esteja errada é retirado 10 pontos do total.<br>
             - Você só vai saber sua pontuação no final do Quiz.
         </p>
 
