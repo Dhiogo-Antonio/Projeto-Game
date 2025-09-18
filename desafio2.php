@@ -14,7 +14,7 @@
         <h1>Pedro pensou em um número. Dobrou esse número e somou 10. O resultado foi 34. Qual era o número que ele
             pensou?</h1>
         <form method="post">
-            <h2>Selecione a idade</h2>
+            <h2>Selecione a resposta correta</h2>
     </div>
     <div class="ola">
         <label for="resposta"></label>
