@@ -20,8 +20,6 @@
         <h2>Objetivo:</h2>
         <p>
             - Responder corretamente às 6 perguntas de lógica.<br>
-            - Cada acerto vale 10 pontos.<br>
-            - A pontuação máxima é 60 pontos.
         </p>
 
         <h2>Como jogar:</h2>
