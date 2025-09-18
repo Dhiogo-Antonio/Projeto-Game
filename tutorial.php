@@ -10,6 +10,9 @@
     .botao{
         margin-top: 4rem;
     }
+    .container2{
+        padding: 5vh;
+    }
 </style>
 <body>
     <div class="container2">
