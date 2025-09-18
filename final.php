@@ -8,57 +8,30 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <title>Resultado Final</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
-    div{
-        background-color: #f6d365;
-        border-radius: 10px;
-    width: 700px;
-    height: 280px;
-    
+    .botao{
+        margin-top: 6vh;
     }
-    body{
-        display: flex;
-        justify-content: center;
-        font-size: 35px;
-    }
-    p{
-        margin-top:45px;
-    }
-    h1{
-        font-size: 40px;
-        margin-bottom: 90px;
-        color: #f6d365;
-    }
-    a{
-         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 15rem;
-        margin-top: 40px;
-        text-decoration: none;
-        color: #191c1dff;
-       background-color: white;
-        transition: all .2s ease-in-out;
-        width: 175px;
-        border-radius: 7px;
+    .container2{
+        margin-top: 10rem;
         font-size: 20px;
-        box-shadow: 5px 5px #24a4bc;
     }
-    a:hover{
-       background: aliceblue;
-      transform: scale(1.05);
-    
+
+    .container2 h1{
+        margin-bottom: 2rem;
     }
 </style>
 <body>
-    
+    <div class="container2">
     <h1>🎉 Resultado Final 🎉</h1>
-    <div>
+    
     <p><strong>Sua pontuação final foi:</strong> <?php echo $_SESSION['pontos'] ?? 0; ?> pontos</p>
     <p>Você poderia fazer no máximo <strong>60 pontos</strong>.</p>
 
-    <a href="index.php">Jogar novamente</a>
+    <a href="index.php" class="botao" >Jogar novamente</a>
+    
 </div>
 </body>
 </html>
