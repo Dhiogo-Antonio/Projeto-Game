@@ -9,6 +9,7 @@ session_start();
     <meta charset="UTF-8">
     <title>Resultado Final</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/thumbnail_Captura_de_tela_2025-08-21_084213-removebg-preview.png" type="image/x-icon">
 </head>
 <style>
     .botao{
