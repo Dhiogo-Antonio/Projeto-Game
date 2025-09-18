@@ -32,7 +32,7 @@
         <h2>Pontuação:</h2>
         <p>
             - Você começa com um total de 60 pontos.<br>
-            - Caso a resposta esteja errada é retirado 10 pontos do total.<br>
+            - Caso a resposta esteja errada ou não respondida é retirado 10 pontos do total.<br>
             - Você só vai saber sua pontuação no final do Quiz.
         </p>
 
